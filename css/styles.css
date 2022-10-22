@@ -173,21 +173,24 @@ color: var(--accent-color);
     font-style: normal;
 }
 
-.address-link {
+.address-link, .address-contact {
     font-family: inherit;
     font-weight: 400;
     font-size: 14px;
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;
+}
+.address-link {
     color: var(--secondary-title-color);
+}
+.address-contact {
+    color: var(--contact-color);
 }
 .address-link:hover, .address-link:focus,
 .address-contact:hover,.address-contact:focus {
     color: var(--accent-color);
 }
-.address-contact {
-    color: var(--contact-color);
-}
+
 
 /* ==================================PORTFOLIO=============================================== */
 
